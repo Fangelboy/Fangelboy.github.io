@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>尧恋婷</title>
+		<title>Pisces love of XY and ST</title>
 		<style>
 			*{padding: 0;margin: 0;}
 			body,html {
@@ -21,7 +21,7 @@
             }
  .book{
  	position: absolute;
- 	width: 400px;
+ 	width: 500px;
  	height: 500px;
  	top: 10%;
  	left: 50%;
@@ -76,7 +76,7 @@
             	描述：后封面
             -->
 			<ul>
-				<li class="page"id="Recover"><img src="img/1.jpg"alt=""/></li>
+				<li class="page"id="Recover"><img src="img/9.jpg"alt=""/></li>
 				<!--
                 	作者：624144061@qq.com
                 	时间：2018-06-16
@@ -89,21 +89,26 @@
 								<li class="page pre-3d font2 "><img src="img/6.jpg"alt=""/></li>
 									<li class="page pre-3d font2 "><img src="img/7.jpg"alt=""/></li>
 										<li class="page pre-3d font2 "><img src="img/8.jpg"alt=""/></li>
+											<li class="page pre-3d font2 "><img src="img/1.jpg"alt=""/></li>
+												<li class="page pre-3d font2 "><img src="img/12.jpg"alt=""/></li>
+													<li class="page pre-3d font2 "><img src="img/11.jpg"alt=""/></li>
+														<li class="page pre-3d font2 "><img src="img/10.jpg"alt=""/></li>
 			<!--
             	作者：624144061@qq.com
             	时间：2018-06-16
             	描述：封面
             -->
-            <li class="pre-3d page font1"><img src="img/9.jpg"alt=""/></li>
+            <li class="pre-3d page font1"><img src="img/13.jpg"alt=""/></li>
 			</ul>
 		</div>
+		<embed src="music/1.mp3" hidden="true" autostart="true" loop="true">
 		<script src="js/myjs.js"></script>
 		<script>
 			window.onload=function(){
 		  var b=document.getElementById("book");
 		  var s=document.getElementsByTagName("li");
 		  var c=document.getElementById("Recover");
-		  i=8;
+		  i=12;
 		  var d=-180;
 		 	b.addEventListener("click",function(e){
 	    		Totransform(s[i],"rotateY("+d+"deg)");
@@ -112,12 +117,12 @@
 		 	     
 		 		i--;
 		 		if(i<0){
-		 			for(var j=0;j<=8;j++){
+		 			for(var j=0;j<=12;j++){
 		 				Totransform(s[j],"rotateY(0deg)");
 		 	         Totransition(s[j],"all 1s");
 		 	         d-=5;
 		 			}
-		 			i=8;
+		 			i=12;
 		 		}
 		 })
 		  }
